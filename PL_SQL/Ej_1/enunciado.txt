@@ -1,0 +1,5 @@
+Escribir un procedimiento que reciba una referencia de contrato como
+parámetro de entrada y actualice su contador de trayectos con el número que tiene
+registrados en la tabla Trayecto. El número de trayectos actual para ese contrato ha de imprimirse por
+consola. Declarar también una excepción que se lanzará cuando la referencia de contrato indicada no
+tiene registrado ningún trayecto.
