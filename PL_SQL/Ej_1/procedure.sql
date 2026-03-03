@@ -1,3 +1,8 @@
+-- =============================================
+-- Autor: Pablo Aguilar
+-- Fecha: 28-02-2026
+-- =============================================
+
 CREATE OR REPLACE PROCEDURE actualizar_trayectos (
     contrato_p IN Contrato.referencia%TYPE
 )    

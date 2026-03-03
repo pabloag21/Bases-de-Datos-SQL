@@ -1,0 +1,4 @@
+Escribir un procedimiento almacenado que liste por departamento el nombre y salario de cada
+empleado cuyo salario sea inferior a la media del departamento. Imprimir también por consola el total
+de dichos salarios (es decir, la suma de los salarios de los empleados que cumplen la condición) por
+departamento.
