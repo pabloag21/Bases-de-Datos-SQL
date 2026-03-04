@@ -1,5 +1,5 @@
--- DROP TABLE Trayecto; ***caution: this will delete the table and all its data***
--- DROP TABLE Contrato; ***caution: this will delete the table and all its data***
+-- DROP TABLE Trayecto; -- ***caution: this will delete the table and all its data***
+-- DROP TABLE Contrato; -- ***caution: this will delete the table and all its data***
 
 CREATE TABLE Contrato (
 referencia VARCHAR2(10) PRIMARY KEY,

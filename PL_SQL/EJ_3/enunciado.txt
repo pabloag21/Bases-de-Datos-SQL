@@ -1,0 +1,6 @@
+Escribir un procedimiento almacenado que reciba como argumento el nombre de una revista y
+muestre por consola los datos de la revista (ISSN, nombre) y los nombres y apellidos de todos los
+autores de sus artículos. Si la revista no contiene autores, porque no tiene publicado ningún artículo,
+debe mostrar el siguiente mensaje: ‘No tiene autores’. Controlar también mediante una excepción si
+la revista indicada como parámetro no existe, en cuyo caso ha de mostrar el siguiente mensaje: ‘No
+existe la revista’.

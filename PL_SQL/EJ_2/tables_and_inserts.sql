@@ -1,5 +1,5 @@
--- DROP TABLE Empleado; ***caution: this will delete the table and all its data***
--- DROP TABLE Departamento; ***caution: this will delete the table and all its data***
+-- DROP TABLE Empleado; -- ***caution: this will delete the table and all its data***
+-- DROP TABLE Departamento; -- ***caution: this will delete the table and all its data***
 
 CREATE TABLE Departamento (
     codigo CHAR(5) PRIMARY KEY,
