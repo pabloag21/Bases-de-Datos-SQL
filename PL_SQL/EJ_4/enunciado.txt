@@ -1,0 +1,3 @@
+Escribir un procedimiento almacenado que reciba por argumentos una fecha, los códigos de un
+aeropuerto de origen y uno de destino y un pasaporte y registre un billete en el primer vuelo en el que
+haya plazas libres. En caso de que no haya vuelos disponibles se informará mediante un mensaje.
