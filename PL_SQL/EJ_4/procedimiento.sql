@@ -61,6 +61,6 @@ EXCEPTION
         DBMS_OUTPUT.PUT_LINE('No hay vuelos disponibles con las características deseadas.');
 
     WHEN ya_comprado THEN
-        DBMS_OUTPUT.PUT_LINE('Ya hay un billete registrado a todos los vuelos disponibles.')
+        DBMS_OUTPUT.PUT_LINE('Ya hay un billete registrado a todos los vuelos disponibles.');
 
 END;

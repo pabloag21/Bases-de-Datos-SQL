@@ -1,0 +1,28 @@
+a. Escribir un procedimiento que reciba una ciudad y muestre el número de alojamientos en dicha
+ciudad (que podrían ser cero, en ese caso escribir que no hay alojamientos en la ciudad). Para cada
+alojamiento mostrar el Id de Alojamiento, su propietario y una lista de sus reservas ordenadas por
+fecha de entrada, indicando el número de reserva, fecha de entrada y precio. Tras mostrar las reservas
+para cada Alojamiento se debe mostrar el número de sus reservas (que podrían ser cero) y el total del
+coste de sus reservas. Un ejemplo de ejecución de listar_Alojamientos('Madrid') sería:
+Número de Alojamientos de Madrid: 2
+---
+Alojamiento: 1 Propietario: 22345678H
+ID: 2 Fecha Entrada: 10/11/23 Precio: 800
+ID: 3 Fecha Entrada: 30/11/23 Precio: 500
+ID: 1 Fecha Entrada: 31/12/23 Precio: 1000
+---
+Total Reservas: 3 Total Precio: 2300
+---
+Alojamiento: 2 Propietario: 12345678H
+---
+Total Reservas: 0 Total Precio: 0
+---
+5
+b. Se desea modificar la tabla de Alojamientos con dos columnas nuevas NumReservas y
+TotalGanancias para almacenar información derivada sobre el número de reservas y el total de
+ganancias contando todas las reservas de cada alojamiento:
+Alojamiento(IdAlojamiento, MaxPersonas, Propietario, Ciudad, NumReservas,
+TotalGanancias)
+Escribir un disparador que actualice automáticamente dicha información derivada cuando se añade
+una nueva reserva, se elimina una reserva o se actualiza una reserva existente para cambiar su precio
+(no es necesario considerar actualizaciones en las que una reserva cambia de alojamiento). 
