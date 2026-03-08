@@ -1,0 +1,31 @@
+a. Escribir un procedimiento que reciba como parámetro el número de catastro de una vivienda y
+realice un listado de las visitas recibidas agrupándolas por inmobiliaria. Por cada grupo se debe
+mostrar el NIF y nombre de cada visitante ordenado ascendentemente por nombre, y al final el número
+de total visitas. Los grupos deben aparecer ordenados ascendentemente por el nombre de la
+inmobiliaria. Tratar con una excepción el caso en que no exista el número de catastro pasado como
+parámetro. Así, unas posibles salidas de este procedimiento para las siguientes llamadas serían:
+
+exec listar_visitas('12345');
+Inmobiliaria: InmoDemo
+Visitante: Javier (NIF: 78901234G)
+Total de visitas: 1
+---
+Inmobiliaria: InmoEjemplo
+Visitante: Isabel (NIF: 67890123F)
+Visitante: Javier (NIF: 78901234G)
+Visitante: María (NIF: 45678901D)
+Total de visitas: 3
+---
+Inmobiliaria: InmoPrueba
+Visitante: Juan (NIF: 12345678A)
+Visitante: María (NIF: 45678901D)
+7
+Total de visitas: 2
+---
+exec listar_visitas('?????');
+No se encontraron visitas para la vivienda con número de catastro '?????'.
+
+b. Suponiendo que la tabla Inmobiliaria incluye el nuevo campo visitas que almacena el número total
+de visitas realizadas por Inmobiliaria, escribir un disparador que permita mantener actualizado este
+campo cada vez que se añada o se elimine una fila o se actualice el campo NIF_Inmobiliaria de la
+tabla Visita. Se supone que este nuevo campo ya está creado y almacena un valor correcto.
